@@ -1,0 +1,8 @@
+#p5Canvas {
+  /* スクロールしてもcanvasを固定するため */
+  position: fixed;
+  /* ブラウザのdomより表に出せる */
+  z-index: 30;
+  /* caanvasの裏側にあるdomのクリックイベントを有効化するため */
+  pointer-events: none;
+}
